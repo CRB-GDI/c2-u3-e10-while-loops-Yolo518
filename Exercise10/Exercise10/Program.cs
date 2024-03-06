@@ -1,4 +1,5 @@
-﻿using System.Threading.Channels;
+﻿using System.Net.Security;
+using System.Threading.Channels;
 
 namespace Exercise10_
 {
@@ -6,7 +7,7 @@ namespace Exercise10_
     {
         static void Main(string[] args)
         { //Problem 1 Makeing a menu
-            Console.BackgroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.White;
             Console.WriteLine("**************");
             Console.WriteLine("Menu:");
             Console.WriteLine("1 - New Game");
@@ -44,7 +45,7 @@ namespace Exercise10_
             }
             if(playerChoice ==4)
             {
-
+                
             }
         }
     }
