@@ -23,22 +23,26 @@ namespace Exercise10_
                     playerChoice = int.Parse(Console.ReadLine());
                     if (playerChoice == 1)
                     {
+                        //Choice 1
                         Console.WriteLine("Make new World");
                         exit = int.Parse(Console.ReadLine());
                     }
                     if (playerChoice == 2)
                     {
+                        //Choice 2
                         Console.WriteLine("loading ...");
                         exit = int.Parse(Console.ReadLine());
                     }
                     if (playerChoice == 3)
                     {
+                        //Choice 3
                         Console.WriteLine("Volume 100%");
                         Console.WriteLine("Difuclty:Normal");
                         exit = int.Parse(Console.ReadLine());
                     }
                     if (playerChoice == 4)
                     {
+                        //Choice 4
                         Console.WriteLine("Thank you for playing see you later");
                         exit = 100;
                     }
